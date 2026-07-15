@@ -94,23 +94,6 @@ The project includes a common testbench that verifies both counters simultaneous
 
 ---
 
-# ▶️ Simulation Steps
-
-### Vivado
-
-1. Create a new RTL Project.
-2. Add:
-   - `ring_counter.v`
-   - `johnson_counter.v`
-   - `tb_counter.v`
-3. Set `tb_counter.v` as the simulation top module.
-4. Run **Behavioral Simulation**.
-5. Observe the output waveforms.
-
----
-
-# 📊 Expected Output
-
 ## Ring Counter
 
 | Clock Cycle | Output |
@@ -138,55 +121,16 @@ The project includes a common testbench that verifies both counters simultaneous
 | 8 | 0000 |
 
 ---
+##Simulatio Results
 
-# 📈 Comparison
 
-| Feature | Ring Counter | Johnson Counter |
-|---------|--------------|-----------------|
-| Flip-Flops | 4 | 4 |
-| Unique States | 4 | 8 |
-| Feedback | Direct | Complemented |
-| Initial State | 0001 | 0000 |
-| Maximum States | N | 2N |
-| Complexity | Simple | Moderate |
+<img width="860" height="410" alt="image" src="https://github.com/user-attachments/assets/9fda9a78-7b56-4d73-b826-0cd9ddc37de6" />
 
----
 
-# 🎯 Learning Outcomes
 
-By completing this project, you will understand:
+## TCL Console
+<img width="803" height="265" alt="image" src="https://github.com/user-attachments/assets/e24d583f-59cb-497d-a70a-a365cd875729" />
 
-- Sequential Circuit Design
-- Shift Registers
-- Ring Counter Operation
-- Johnson Counter Operation
-- Clock-Driven Logic
-- Asynchronous Reset
-- Behavioral Verilog Modeling
-- Digital Counter Design
 
----
-
-# 📚 Concepts Used
-
-- Verilog HDL
-- Behavioral Modeling
-- Shift Registers
-- Sequential Logic
-- Flip-Flops
-- Counters
-- Clocked Always Blocks
-- Simulation and Verification
-
----
-
-# 👨‍💻 Author
-
-**Haridarshan B Kunder**
-
-Electronics & Communication Engineering  
-NMAM Institute of Technology, Nitte
-
----
 
 ## ⭐ If you found this project useful, consider giving it a star!
